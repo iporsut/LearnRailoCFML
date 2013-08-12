@@ -6,7 +6,6 @@
  * To change this template use File | Settings | File Templates.
 */
 component accessors="true"{
-  // Place your content here
   property string firstName;
   property string lastName;
   property string email;

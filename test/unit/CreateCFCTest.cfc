@@ -5,6 +5,7 @@
  * Time: 3:18 PM
  * To change this template use File | Settings | File Templates.
 */
+
 component extends="mxunit.framework.TestCase" {
   import LearnRailoCFML.model.*;
 
@@ -12,8 +13,9 @@ component extends="mxunit.framework.TestCase" {
     assert(this.user.firstName eq "Weerasak");
     assert(this.user.lastName eq "Chongnguluam");
     assert(this.user.email eq "singpor@gmail.com");
+
   }
-	<!--- setup and teardown --->
+	
   public void function setUp() {
     this.user = new User(
       firstName = "Weerasak",
