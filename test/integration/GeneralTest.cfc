@@ -23,6 +23,10 @@ component extends="coldbox.system.testing.BaseTestCase" appMapping="/LearnRailoC
 		
 		assert(event.getValue("name") eq "Weerasak");
 			
-	}
+	}
+
+	function testMongoObjectId() {
+		var oid = ObjectId("4f0d462adf609a72e7000001");
+	}
 
 }
