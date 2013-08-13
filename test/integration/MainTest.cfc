@@ -6,7 +6,7 @@ Description :
 	Unit test for the ehMain Handler.
 
 ----------------------------------------------------------------------->
-<cfcomponent extends="coldbox.system.testing.BaseTestCase" appMapping="/coldbox/ApplicationTemplates/AdvancedScript">
+<cfcomponent extends="coldbox.system.testing.BaseTestCase" appMapping="/LearnRailoCFML">
 	
 	<cffunction name="setUp" returntype="void" output="false">
 		<cfscript>
